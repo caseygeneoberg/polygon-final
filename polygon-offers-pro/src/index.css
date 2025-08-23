@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-white text-slate-800 antialiased; }
+.container-tight { @apply max-w-6xl mx-auto px-4; }
+
+.btn-primary { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium shadow-sm bg-brand-500 text-white hover:opacity-90 transition; }
+.btn-outline { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium border border-slate-300 hover:bg-slate-50 transition; }
+.btn-cta { @apply inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-white shadow-soft transition; background-image: theme('backgroundImage.brand-gradient'); }
+.card { @apply rounded-2xl border border-slate-200 shadow-sm bg-white; }
+.badge-dot { @apply h-10 w-10 rounded-full flex items-center justify-center text-white font-bold shadow-soft; }
